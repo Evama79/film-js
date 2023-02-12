@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+            function guess() {
+                let title = "Аватар";
+                let guess = prompt("Введите название фильма")
+                let result = title == guess;
+
+                if(result) {
+                    alert("Вы угадали");
+                }
+                else {
+                    alert("Попытайтесь снова плз")
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="guess()">clicc</button>
+    </body>
+</html>
